@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1000 618">
+  <!--
+  <rect x="25" y="25" width="200" height="200" fill="lime" stroke-width="4" stroke="pink" />
+  <circle cx="125" cy="125" r="75" fill="orange" />
+  <polyline points="50,150 50,200 200,200 200,100" stroke="red" stroke-width="4" fill="none" />
+  <line x1="50" y1="50" x2="200" y2="200" stroke="blue" stroke-width="4" />
+  -->
+
+  <!--<script xlink:href="livescript-1.4.0.min.js"></script>-->
+  <!--<script type="text/ls">
+svg = document.query-selector \svg
+
+new-box = (x, y, w, h, p, opts) !->
+  box = document.create-element \rect
+    ..set-attribute \x, x
+    ..set-attribute \y, y
+    ..set-attribute \width, w
+    ..set-attribute \height, h
+    if opts.stroke
+      ..set-attribute \stroke, that
+  svg.append-child box
+  return box
+
+#new-box 10, 10, 100, 100, void, stroke: \red
+  </script>-->
+  <!--<script>
+    require('LiveScript').go();
+  </script>-->
+
+  <script xlink:href="struct-view.js"></script>
+
+</svg>
